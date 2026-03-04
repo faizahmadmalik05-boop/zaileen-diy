@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZAILEEN DIY</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #ffffff;
+        color: #5a0f1c;
+    }
+
+    header {
+        background-color: #7b0f1d; /* Dark Cherry Red */
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        color: #7b0f1d;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .product-card {
+        background-color: #fff;
+        border: 2px solid #7b0f1d;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .product-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 5px 15px rgba(123, 15, 29, 0.3);
+    }
+
+    .product-card img {
+        width: 100%;
+        border-radius: 12px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .product-card h3 {
+        margin: 15px 0 10px;
+    }
+
+    .price {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .whatsapp-btn {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #7b0f1d;
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+
+    .whatsapp-btn:hover {
+        background-color: #a3152a;
+    }
+
+    footer {
+        background-color: #7b0f1d;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    ZAILEEN DIY
+</header>
+
+<section class="hero">
+    <h1>Handmade With Love 🤍</h1>
+    <p>Cream Clips • Key Chains • Book Bouquets • Cute Food Charms</p>
+</section>
+
+<section class="products">
+
+    <!-- 🌸 PRODUCT 1 -->
+    <div class="product-card">
+        <img src="https://via.placeholder.com/300x200" alt="Handmade Cream Clip">
+        <h3>Handmade Cream Clip</h3>
+        <div class="price">$5</div>
+        <a class="whatsapp-btn" 
+           href="https://wa.me/YOURNUMBER?text=Hi! I want to order Handmade Cream Clip">
+           Order on WhatsApp
+        </a>
+    </div>
+
+    <!-- 🌸 PRODUCT 2 -->
+    <div class="product-card">
+        <img src="https://via.placeholder.com/300x200" alt="Handmade Key Chain">
+        <h3>Handmade Key Chain</h3>
+        <div class="price">$4</div>
+        <a class="whatsapp-btn" 
+           href="https://wa.me/YOURNUMBER?text=Hi! I want to order Handmade Key Chain">
+           Order on WhatsApp
+        </a>
+    </div>
+
+    <!-- 🌸 PRODUCT 3 -->
+    <div class="product-card">
+        <img src="https://via.placeholder.com/300x200" alt="Book Bouquet">
+        <h3>Book Bouquet</h3>
+        <div class="price">$10</div>
+        <a class="whatsapp-btn" 
+           href="https://wa.me/YOURNUMBER?text=Hi! I want to order Book Bouquet">
+           Order on WhatsApp
+        </a>
+    </div>
+
+    <!-- 🌸 PRODUCT 4 -->
+    <div class="product-card">
+        <img src="https://via.placeholder.com/300x200" alt="Cute Food Keychain">
+        <h3>Cute Food Keychain</h3>
+        <div class="price">$6</div>
+        <a class="whatsapp-btn" 
+           href="https://wa.me/YOURNUMBER?text=Hi! I want to order Cute Food Keychain">
+           Order on WhatsApp
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 ZAILEEN DIY | Handmade with Love 🤍
+</footer>
+
+</body>
+</html>
